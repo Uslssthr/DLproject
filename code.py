@@ -32,7 +32,7 @@ class Audio2Image:
         self.text2image(transcription)
 
 if __name__ == "__main__":
-    audio_path = ""
+    audio_path = "sample.wav"
     savepath = "./res.jpg"
     api = Audio2Image()
     api.main(audio_path,savepath)
